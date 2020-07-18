@@ -15,7 +15,7 @@ class App extends Component {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route path="/home" exact>
+          <Route path="/" exact>
             <Home />
           </Route>
           <Route path="/about">
